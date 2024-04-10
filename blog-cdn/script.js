@@ -17,7 +17,4 @@ $(document).ready(function() {
       $(".navbar-menu").toggleClass("is-active");
 
   });
-});
-
-document.getElementsByTagName("h1").classList.add("title");
-document.getElementById("site-title").classList.remove("title");
+}
