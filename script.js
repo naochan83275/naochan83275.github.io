@@ -18,3 +18,5 @@ $(document).ready(function() {
 
   });
 });
+
+document.getElementById('msg').innerHTML = '誰か祝ってくれるのかということは置いといてとりあえず' + location.href.replace('https://naochan83275.github.io/?mode=birthday&ord=', '')'歳になりました。<br>※表示がおかしい場合は<a href="https://naochan83275.github.io/?mode=birthday&ord=13">ここ</a>にアクセスしてください。深夜1時に大急ぎで作ったのでミスがあるかもしれません。'
