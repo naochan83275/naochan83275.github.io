@@ -5,8 +5,8 @@ var ord = today.getFullYear()-2011;
 var allowdate = today.getMonth()+1 + '/' + today.getDate();
 // 以下デバッグ用
 
-var allowdate = '5/26';
-var ord = 18;
+// var allowdate = '5/26';
+// var ord = 18;
 
 // デバックここまで
 var allowurl = 'https://naochan83275.github.io/?mode=birthday&ord=' + ord;
