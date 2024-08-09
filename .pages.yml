@@ -2,7 +2,7 @@ media: media
 content:
   - name: files
     label: トップページ
-    path: index.html
+    path: /index.html
     type: file
     fields:
       - name: config
