@@ -1,0 +1,10 @@
+contents:
+  - name: files
+    label: トップページ
+    path: index.html
+    type: file
+    fields:
+      - name: code
+      - label: HTMLコード
+      - type: text
+      
