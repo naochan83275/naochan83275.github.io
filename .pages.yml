@@ -2,11 +2,6 @@ media: media
 content:
   - name: files
     label: トップページ
-    path: /index.html
-    type: file
-    fields:
-      - name: config
-      - label: HTMLコード
-      - type: code
-    fields: [ config ]
+    path: /
+    type: collection
       
