@@ -1,11 +1,11 @@
 media: media
-contents:
+content:
   - name: files
     label: トップページ
     path: index.html
     type: file
     fields:
-      - name: code
+      - name: config
       - label: HTMLコード
-      - type: text
+      - type: code
       
