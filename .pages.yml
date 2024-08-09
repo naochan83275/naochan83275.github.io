@@ -8,4 +8,5 @@ content:
       - name: config
       - label: HTMLコード
       - type: code
+    fields: [ config ]
       
