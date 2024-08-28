@@ -81,6 +81,7 @@
           →トップページに戻る
         </a>
       </p>
+      <br>
       <details>
         <summary>詳細を見る</summary>
         <table class="table is-fullwidth">
@@ -89,8 +90,20 @@
             <th>内容</th>
           </tr>
           <tr>
+            <td>エラーコード</td>
+            <td>404</td>
+          </tr>
+          <tr>
+            <td>発生理由</td>
+            <td>ファイルが存在しないか、URLが誤っています</td>
+          </tr>
+          <tr>
             <td>URL</td>
             <td id="URL">Error: Javascript disabled</td>
+          </tr>
+          <tr>
+            <td>エラーの発生時刻</td>
+            <td id="TIME">Error: Javascript disabled</td>
           </tr>
         </table>
       </details>
@@ -106,6 +119,9 @@
     </footer>
     <script>
       document.getElementById("URL").innerHTML = window.location.href;
+      var _date = new Date();
+      var nowtime = date.getFullYear() + '/' + ('0' + (date.getMonth() + 1)).slice(-2) + '/' +('0' + date.getDate()).slice(-2) + ' ' +  ('0' + date.getHours()).slice(-2) + ':' + ('0' + date.getMinutes()).slice(-2) + ':' + ('0' + date.getSeconds()).slice(-2) + '.' + date.getMilliseconds();
+      document.getElementById("TIME").innerHTML = nowtime;
     </script>
   </body>
 </html>
