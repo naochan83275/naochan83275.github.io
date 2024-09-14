@@ -125,7 +125,7 @@
     </script>
     <script type="module">
       import text from "/include/import.js?path=/include/cloudflare-analytics";
-      document.getElementById('_header').innerHTML = text;
+      document.getElementById('_header').innerHTML = document.getElementById('_header').innerHTML + text;
     </script>
   </body>
 </html>
