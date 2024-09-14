@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="noindex,nofollow">
     <title id="tabtitle">
-      home | naochan's website
+      404 not found | naochan's website
     </title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css">
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
@@ -122,6 +122,10 @@
       var date = new Date();
       var nowtime = date.getFullYear() + '/' + ('0' + (date.getMonth() + 1)).slice(-2) + '/' +('0' + date.getDate()).slice(-2) + ' ' +  ('0' + date.getHours()).slice(-2) + ':' + ('0' + date.getMinutes()).slice(-2) + ':' + ('0' + date.getSeconds()).slice(-2) + '.' + date.getMilliseconds();
       document.getElementById("TIME").innerHTML = nowtime;
+    </script>
+    <script type="module">
+      import text from "/include/import.js?path=/include/cloudflare-analytics";
+      document.getElementById('_header').innerHTML = text;
     </script>
   </body>
 </html>
